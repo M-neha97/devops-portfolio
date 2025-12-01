@@ -1,0 +1,3 @@
+
+The Assignments folder contains practical DevOps assignments completed during my learning journey.
+These serve as a reference point to revisit concepts and reinforce foundational knowledge.

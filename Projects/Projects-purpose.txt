@@ -1,0 +1,3 @@
+
+The Projects folder contains hands on DevOps projects that demonstrate the implementation of fundamental conecpts learned during my DevOps journey.
+

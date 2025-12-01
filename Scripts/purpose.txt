@@ -1,0 +1,2 @@
+
+The Scripts folder contains automation scripts written in Python, Bash or any other languages I learn during my DevOps journey.
