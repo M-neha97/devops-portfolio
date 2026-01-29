@@ -17,8 +17,7 @@ pipeline {
             steps {
                 echo ' Place your git pull code here'
                 sh 'mkdir -p check-balance'
-            }
-            
+            }      
         }        
         stage('Pull from github ') {
             steps {
@@ -30,17 +29,14 @@ pipeline {
                     sh 'mvn --version '
                     //sh 'mvn clean package'
                     sh "mvn -Dmaven.test.failure.ignore=true clean package"
-                }
-               
-            }
-            
+                }    
+	    }       
         } 
         stage('Create Docker Image') {
             steps {
                 dir('check-balance') {
                     sh 'echo "build docker image"'
                     sh 'docker build -t my-app:latest .'
-  
                 }
                     
             }
@@ -51,7 +47,6 @@ pipeline {
                 sh 'docker rm -f jenkinscontainer || true'
                 sh 'docker run -d -p 23000:8080 --name jenkinscontainer my-java-app:latest'
             }
-        }
-               
+        }               
     }
 }

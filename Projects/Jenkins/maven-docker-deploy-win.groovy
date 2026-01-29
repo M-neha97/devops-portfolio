@@ -27,19 +27,15 @@ pipeline {
                     bat 'mvn clean package'
                     //bat "mvn -Dmaven.test.failure.ignore=true clean package"
                 }      
-            }
-            
+            }            
         }
         stage('Create Docker Image') {
             steps {
                 dir('check-balance') {
                     bat 'echo "build docker image"'
                     bat 'docker build -t my-app:latest .'
-  
-                }
-                    
-            }
-            
+                }                    
+            }            
         }
          stage('Running Docker Image') {
             steps {
@@ -47,8 +43,7 @@ pipeline {
                 dir('check-balance') {
                     bat 'echo "build docker image"'
 		    bat 'docker rm -f jenkinscontainer || ver > nul'
-                    bat 'docker run -d -p 22000:8080 --name jenkinscontainer my-app:latest'
-  
+                    bat 'docker run -d -p 22000:8080 --name jenkinscontainer my-app:latest' 
                 }
             }
         }
