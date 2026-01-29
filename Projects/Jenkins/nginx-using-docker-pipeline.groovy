@@ -20,11 +20,8 @@ pipeline {
                 dir('nginx-folder') {
                     bat 'echo "Pull docker image"'
                     bat 'docker pull nginx'
-  
-                }
-                    
-            }
-            
+                }        
+            }    
         }
          stage('Running Docker Image') {
             steps {

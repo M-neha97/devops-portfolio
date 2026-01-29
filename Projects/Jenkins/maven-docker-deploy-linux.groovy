@@ -29,7 +29,7 @@ pipeline {
                     sh 'mvn --version '
                     //sh 'mvn clean package'
                     sh "mvn -Dmaven.test.failure.ignore=true clean package"
-                }    
+                 }    
 	    }       
         } 
         stage('Create Docker Image') {
@@ -37,8 +37,7 @@ pipeline {
                 dir('check-balance') {
                     sh 'echo "build docker image"'
                     sh 'docker build -t my-app:latest .'
-                }
-                    
+                }                   
             }
         }
         stage('Running Docker Image') {
