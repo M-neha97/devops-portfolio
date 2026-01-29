@@ -11,19 +11,15 @@ pipeline {
        //create docker image
        //running docker image
     
-
-
     stages {
 
-   
         stage('Create folder for our project ') {
             steps {
                 echo ' Place your git pull code here'
                 sh 'mkdir -p check-balance'
             }
             
-        }
-        
+        }        
         stage('Pull from github ') {
             steps {
                 dir('check-balance') {
@@ -38,8 +34,7 @@ pipeline {
                
             }
             
-        }
-        
+        } 
         stage('Create Docker Image') {
             steps {
                 dir('check-balance') {
@@ -49,9 +44,7 @@ pipeline {
                 }
                     
             }
-            
         }
-        
         stage('Running Docker Image') {
             steps {
                 echo 'run docker image'
@@ -59,9 +52,6 @@ pipeline {
                 sh 'docker run -d -p 23000:8080 --name jenkinscontainer my-java-app:latest'
             }
         }
-
-      
-
                
     }
 }

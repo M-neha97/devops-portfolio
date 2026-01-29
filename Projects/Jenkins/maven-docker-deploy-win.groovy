@@ -16,7 +16,6 @@ pipeline {
                 }
             }
         }
-
          stage('Pull from github ') {
             steps {
                 dir('check-balance') {
@@ -27,12 +26,10 @@ pipeline {
                     bat 'mvn --version '
                     bat 'mvn clean package'
                     //bat "mvn -Dmaven.test.failure.ignore=true clean package"
-                }
-               
+                }      
             }
             
         }
-
         stage('Create Docker Image') {
             steps {
                 dir('check-balance') {
@@ -44,7 +41,6 @@ pipeline {
             }
             
         }
-
          stage('Running Docker Image') {
             steps {
                 echo 'run docker image'
@@ -56,9 +52,5 @@ pipeline {
                 }
             }
         }
-
-
-
-
     }
 }
