@@ -1,0 +1,9 @@
+# Python ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Folder-specific metadata
+.DS_Store
+Thumbs.db
