@@ -28,8 +28,7 @@
        -AWS Glue
    
  <h1 align="center">$$\color{red}Future \space  Roadmap$$</h1>
-  <h3> In the upcoming weeks,I plan to learn below DevOps tools</h3>
-      -Terraform<br>
-      -Python functions<br>
-      -Object-Oriented Programming (OOP) in Python<br>
-      -AWS VPC and Networking
+  <h3> In the upcoming weeks,I plan to upload below scripts</h3>
+      -Terraform scripts <br>
+      -CI/CD scripts<br>
+      -Docker scripts
