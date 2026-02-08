@@ -13,10 +13,10 @@
  <h1 align="center">$$\color{red}Current  \space \space Technical  \space \space Skills $$</h1>
      <h3>Git and GitHub </h3>
      <h3>DevOps tools </h3>
-        -Terraform
-        -Ansible
-        -Docker
-        -CI/CD (Jenkins)
+        -Terraform<br>
+        -Ansible<br>
+        -Docker<br>
+        -CI/CD (Jenkins)<br>
         -Kubernetes
      <h3> Python basics </h3>  
        -Data Types<br>
