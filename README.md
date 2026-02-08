@@ -12,12 +12,22 @@
    
  <h1 align="center">$$\color{red}Current  \space \space Technical  \space \space Skills $$</h1>
      <h3>Git and GitHub </h3>
+     <h3>DevOps tools </h3>
+        -Terraform<br>
+        -Ansible<br>
+        -Docker<br>
+        -CI/CD (Jenkins)<br>
+        -Kubernetes
      <h3> Python basics </h3>  
        -Data Types<br>
        -Variables and Operators<br>
        -Input and Output<br>
        -Control flow- if-else statements, for loops, while loops, break, continue<br>
        -Python Data Structures:Lists,Tuple,set,Dictionaries
+       -functions
+       -lambda
+       -modules
+       -panda library
      <h3> Linux </h3>
      <h3> Cloud Platform AWS </h3>
        -EC2<br>
@@ -28,8 +38,7 @@
        -AWS Glue
    
  <h1 align="center">$$\color{red}Future \space  Roadmap$$</h1>
-  <h3> In the upcoming weeks,I plan to learn below DevOps tools</h3>
-      -Terraform<br>
-      -Python functions<br>
-      -Object-Oriented Programming (OOP) in Python<br>
-      -AWS VPC and Networking
+  <h3> In the upcoming weeks,I plan to upload below scripts</h3>
+      -Terraform scripts <br>
+      -CI/CD scripts<br>
+      -Docker scripts
