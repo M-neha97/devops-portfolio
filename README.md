@@ -1,45 +1,58 @@
- <h1 align="center">$$\color{red} Introduction $$</h1>
-    <h3>Hey Everyone 👋, I am Neha, an aspiring DevOps engineer. I am currently learning and working with various DevOps and cloud technologies such as </h3>
-    <p align="left">
-    -<strong>Cloud platforms:</strong>&nbsp;&nbsp;&nbsp;&nbsp;AWS,GCP<br>
-    -<strong>Infrastructure as Code (Iac):</strong>&nbsp;&nbsp;&nbsp;&nbsp;Terraform , Ansible<br>
-    -<strong>Version Control and Collaboration:</strong>&nbsp;&nbsp;&nbsp;&nbsp;Git, GitHub<br>
-    -<strong>Containerization and Orchestration</strong>&nbsp;&nbsp;&nbsp;&nbsp;Docker, Kubernetes<br>
-    -<strong>CI/CD and Automation:</strong>&nbsp;&nbsp;&nbsp;&nbsp;Jenkins,DevOps pipelines<br>
-    -<strong>Scripting and OS:</strong>&nbsp;&nbsp;&nbsp;&nbsp;Python,Linux
-    </p>
-   <h3 align="left"> This repository serves as my DevOps portfolio so that I can showcase my learning journey and hands-on projects and document all the skills and tools I am learning </h3>
-   
- <h1 align="center">$$\color{red}Current  \space \space Technical  \space \space Skills $$</h1>
-     <h3>Git and GitHub </h3>
-     <h3>DevOps tools </h3>
-        -Terraform<br>
-        -Ansible<br>
-        -Docker<br>
-        -CI/CD (Jenkins)<br>
-        -Kubernetes
-     <h3> Python basics </h3>  
-       -Data Types<br>
-       -Variables and Operators<br>
-       -Input and Output<br>
-       -Control flow- if-else statements, for loops, while loops, break, continue<br>
-       -Python Data Structures:Lists,Tuple,set,Dictionaries
-       -functions
-       -lambda
-       -modules
-       -panda library
-     <h3> Linux </h3>
-     <h3> Cloud Platform AWS </h3>
-       -EC2<br>
-       -Simple Cloud Storage (S3)<br>
-       -Lambda<br>
-       -Aurora and RDS<br>
-       -Athena<br>
-       -AWS Glue
-   
- <h1 align="center">$$\color{red}Future \space  Roadmap$$</h1>
-  <h3> In the upcoming weeks,I plan to upload below scripts</h3>
-      -Terraform scripts <br>
-      -CI/CD scripts<br>
-      -Docker scripts<br>
-      -Ansible scripts
+<h1 align="center">Hi 👋, I'm Neha</h1>
+<h3 align="center">DevOps Engineer | Cloud & Automation Enthusiast</h3>
+
+<p align="center">
+Building scalable infrastructure, automating workflows, and continuously learning modern DevOps practices.
+</p>
+
+---
+<h2 align="center">⚙️ DevOps Stack</h2>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+</p>
+
+---
+
+<h2 align="center">📌 Current Focus</h2>
+
+- Infrastructure as Code using Terraform  
+- Multi-environment deployments (Dev/Test/Prod)  
+- CI/CD automation using Jenkins  
+- Containerized deployments with Docker & Kubernetes  
+- Cloud architecture on AWS  
+
+---
+
+<h2 align="center">🛠️ Projects</h2>
+
+🔹 Terraform VPC Setup (Custom Networking) <br>
+🔹 EC2 with Public Subnet, Internet Gateway & Route Tables <br>
+🔹 Multi-Environment Infrastructure using Terraform Modules (Dev/Test/Prod) <br>
+🔹 MySQL Master–Slave Replication on AWS EC2 <br>
+🔹 PostgreSQL Installation & Remote Access Setup on Ubuntu EC2 <br>
+🔹 CI/CD Pipeline Implementations <br>
+🔹 Containerized Applications using Docker <br>
+
+---
+
+<h2 align="center">📈 Future Roadmap</h2>
+
+- Advanced Terraform (Remote Backend, Workspaces, State Management)  
+- Kubernetes Production Deployments  
+- Monitoring & Logging (Prometheus, Grafana)  
+- GitOps & Advanced CI/CD Pipelines  
+
+---
+
+<p align="center">
+⭐ This repository documents my DevOps journey, hands-on labs, and real-world infrastructure projects.
+</p>
