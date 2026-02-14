@@ -42,3 +42,4 @@
       -Terraform scripts <br>
       -CI/CD scripts<br>
       -Docker scripts
+      -Ansible scripts
