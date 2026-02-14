@@ -4,4 +4,8 @@ Implementation of MySQL 8.x Master–Slave replication on two Ubuntu EC2 instanc
 
 This project demonstrates binary logging, replication configuration, and data synchronization between Master and Slave.
 
+📄 Detailed documentation:
+[MySQL_Master_Slave_Replication.md](./MySQL_Master_Slave_Replication.md).
+
+
 
