@@ -41,5 +41,5 @@
   <h3> In the upcoming weeks,I plan to upload below scripts</h3>
       -Terraform scripts <br>
       -CI/CD scripts<br>
-      -Docker scripts
+      -Docker scripts<br>
       -Ansible scripts
